@@ -1,0 +1,27 @@
+README
+
+1. Please read cloud.pdf for the details of the problem.
+
+2. Make sure Gurobi is properly installed and update Makefile according to your Gurobi installation accordingly.
+
+3. The PM and VM configuration files are in the folder conf.
+
+4. In the folder setting, we place the experiments setting inputs.
+
+5. How to compile?
+
+   Make clean
+   Make
+
+6. How to run?
+1) For formualtion F1
+./run.sh CloudAssignment_form1 setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
+
+2) For formualtion F2
+./run.sh CloudAssignment_mix setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
+
+3) For formualtion Mix
+./run.sh CloudAssignment_mix setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
+
+4) For randomized heuristic
+./run.sh RandomAssignment_mix setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
