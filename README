@@ -15,13 +15,13 @@ README
 
 6. How to run?
 1) For formualtion F1
-./run.sh CloudAssignment_form1 setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
+./run.sh CloudAssignment_form1 setting/set1/VM.num setting/set1/PM.num prob.lp 0
 
 2) For formualtion F2
-./run.sh CloudAssignment_mix setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
+./run.sh CloudAssignment_mix setting/set1/VM.num setting/set1/PM.num prob.lp 0
 
 3) For formualtion Mix
-./run.sh CloudAssignment_mix setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
+./run.sh CloudAssignment_mix setting/set1/VM.num setting/set1/PM.num prob.lp 0
 
 4) For randomized heuristic
-./run.sh RandomAssignment_mix setting/set_1/VM.num setting/set_1/PM.num prob.lp 0
+./run.sh RandomAssignment_mix setting/set1/VM.num setting/set1/PM.num prob.lp 0
